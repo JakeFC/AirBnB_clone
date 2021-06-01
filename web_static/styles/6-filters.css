@@ -14,12 +14,13 @@
     margin-left:45px;
     vertical-align:middle;
     line-height:0;
+    position:relative;
 }
 .locations {
     border-right:1px solid #DDDDDD;
 }
 .locations h3,
-.amenites h3 {
+.amenities h3 {
     font-weight:600;
     margin-top:22px;
 }
@@ -30,11 +31,11 @@
 }
 .locations:hover .popover {
     display:inline-block;
-    right:-1;
+    right:-1px;
 }
 .amenities:hover .popover {
     display:inline-block;
-    right:3;
+    right:2px;
 }
 .popover {
     display:none;
@@ -43,8 +44,8 @@
     border:1px solid #DDDDDD;
     border-radius:4px;
     list-style-type:none;
-    line-height: 26px;
-    position: absolute;
+    line-height:26px;
+    position:absolute;
     top:56px;
     padding-right:5px;
     padding-bottom:25px;
